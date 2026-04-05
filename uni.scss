@@ -1,0 +1,57 @@
+/* 全局样式变量 - uni-app SCSS */
+
+/* 主色调 */
+$primary-gradient: linear-gradient(135deg, #00c9a7 0%, #0077b6 100%);
+$success-color: #10b981;
+$error-color: #ef4444;
+$warning-color: #f59e0b;
+
+/* 背景 */
+$bg-color: #f5f7fa;
+$card-bg: #ffffff;
+
+/* 文字 */
+$text-primary: #1a202c;
+$text-secondary: #718096;
+$text-hint: #a0aec0;
+
+/* 圆角 */
+$radius-sm: 8px;
+$radius-md: 12px;
+$radius-lg: 16px;
+$radius-xl: 20px;
+
+/* 阴影 */
+$shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+$shadow-md: 0 4px 16px rgba(0,0,0,0.1);
+$shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+
+/* 通用类 */
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card {
+	background: $card-bg;
+	border-radius: $radius-md;
+	box-shadow: $shadow-sm;
+	padding: 16px;
+}
+
+.btn-primary {
+	background: $primary-gradient;
+	color: #fff;
+	border: none;
+	border-radius: $radius-md;
+	padding: 12px 24px;
+	font-size: 16px;
+	font-weight: 600;
+}

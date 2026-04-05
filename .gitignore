@@ -1,0 +1,20 @@
+# 敏感配置
+config.js
+.env.local
+*.key
+
+# 编译输出
+unpackage/
+dist/
+*.apk
+*.ipa
+
+# 依赖
+node_modules/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
