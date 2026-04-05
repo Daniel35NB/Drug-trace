@@ -1,0 +1,23 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "丰源堂出库"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "丰源堂出库",
+    "navigationBarBackgroundColor": "#00c9a7",
+    "backgroundColor": "#f5f7fa"
+  },
+  "tabBar": {},
+  "easycom": {
+    "autoscan": true,
+    "custom": {}
+  }
+}
